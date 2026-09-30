@@ -1,0 +1,6 @@
+{
+  "name": "FullStack Hub - NextGen Web App",
+  "description": "Complete full-stack production application with JWT authentication, RESTful API engine, reactive dashboard, task management, and system architecture explorer.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

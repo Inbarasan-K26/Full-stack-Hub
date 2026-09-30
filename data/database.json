@@ -1,0 +1,169 @@
+{
+  "users": [
+    {
+      "id": "usr_admin_001",
+      "email": "admin@example.com",
+      "username": "admin",
+      "fullName": "System Administrator",
+      "role": "admin",
+      "passwordHash": "2f175c36a4af80992d5766851d3dd31e:de635159bff4a8eed2507c4c8111c129b9b350a7a3103db14342be2e4ab2919e60feb41b599d3e9f2c8d0cc1147874c47636e035ec097145609b534ee8923199",
+      "bio": "Principal DevOps & FullStack Systems Lead",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "createdAt": "2026-09-30T07:56:34.694Z",
+      "updatedAt": "2026-09-30T07:56:50.712Z",
+      "lastLoginAt": "2026-09-30T07:56:50.712Z"
+    },
+    {
+      "id": "usr_demo_002",
+      "email": "demo@example.com",
+      "username": "alexdev",
+      "fullName": "Alex Morgan",
+      "role": "user",
+      "passwordHash": "2030919697d9720ce551b5161a3cffae:708056419ae049c63c5bde9319c4582230ee4f63a83d3b155accd638207254b924e96b9937d8e03243fa00e89fed42de4445c2cb491b8c01bc6e3426f832add5",
+      "bio": "Senior Software Engineer building React & API solutions",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      "createdAt": "2026-09-30T07:56:34.694Z",
+      "updatedAt": "2026-09-30T07:56:34.694Z",
+      "lastLoginAt": "2026-09-30T07:56:34.694Z"
+    }
+  ],
+  "items": [
+    {
+      "id": "item_001",
+      "title": "Containerize Backend & Frontend with Docker Compose",
+      "description": "Orchestrate FastAPI/Node backend and React frontend services with hot-reloading and network isolation.",
+      "category": "DevOps",
+      "priority": "high",
+      "status": "completed",
+      "assignedTo": "admin@example.com",
+      "tags": [
+        "docker",
+        "compose",
+        "devops",
+        "infrastructure"
+      ],
+      "createdBy": "admin@example.com",
+      "createdAt": "2026-09-27T07:56:34.694Z",
+      "updatedAt": "2026-09-30T07:56:34.694Z"
+    },
+    {
+      "id": "item_002",
+      "title": "Implement Cryptographic JWT Authentication & RBAC",
+      "description": "Secure API with signed HMAC-SHA256 JWT tokens, PBKDF2 password hashing, and role-based permissions.",
+      "category": "Security",
+      "priority": "urgent",
+      "status": "completed",
+      "assignedTo": "demo@example.com",
+      "tags": [
+        "security",
+        "jwt",
+        "auth",
+        "rbac"
+      ],
+      "createdBy": "admin@example.com",
+      "createdAt": "2026-09-28T07:56:34.694Z",
+      "updatedAt": "2026-09-30T07:56:34.694Z"
+    },
+    {
+      "id": "item_003",
+      "title": "Design Reactive Dashboard with Real-Time Telemetry",
+      "description": "Create responsive metrics cards, interactive data grids, priority badges, and activity tracking in Tailwind CSS.",
+      "category": "Frontend",
+      "priority": "high",
+      "status": "in_progress",
+      "assignedTo": "demo@example.com",
+      "tags": [
+        "react",
+        "tailwind",
+        "ui",
+        "dashboard"
+      ],
+      "createdBy": "demo@example.com",
+      "createdAt": "2026-09-29T07:56:34.694Z",
+      "updatedAt": "2026-09-30T07:56:34.694Z"
+    },
+    {
+      "id": "item_004",
+      "title": "Construct Interactive REST API Explorer Playground",
+      "description": "Allow developers to inspect, test, and debug all live endpoints directly from within the browser interface.",
+      "category": "Backend",
+      "priority": "medium",
+      "status": "in_progress",
+      "assignedTo": "demo@example.com",
+      "tags": [
+        "api",
+        "rest",
+        "swagger",
+        "developer-tools"
+      ],
+      "createdBy": "admin@example.com",
+      "createdAt": "2026-09-30T07:56:34.694Z",
+      "updatedAt": "2026-09-30T07:56:34.694Z"
+    },
+    {
+      "id": "item_005",
+      "title": "Database Schema Indexing and Query Optimization",
+      "description": "Audit query execution plans, configure database indexes, and optimize serialization for high throughput.",
+      "category": "Database",
+      "priority": "medium",
+      "status": "todo",
+      "assignedTo": "admin@example.com",
+      "tags": [
+        "database",
+        "sqlite",
+        "performance",
+        "sql"
+      ],
+      "createdBy": "admin@example.com",
+      "createdAt": "2026-09-30T07:56:34.694Z",
+      "updatedAt": "2026-09-30T07:56:34.694Z"
+    },
+    {
+      "id": "item_006",
+      "title": "Full-Stack Architecture Specification & Health Probes",
+      "description": "Integrate /api/health probe endpoints, memory monitoring, and automated system diagnostics.",
+      "category": "Architecture",
+      "priority": "low",
+      "status": "completed",
+      "assignedTo": "demo@example.com",
+      "tags": [
+        "architecture",
+        "healthcheck",
+        "monitoring"
+      ],
+      "createdBy": "admin@example.com",
+      "createdAt": "2026-09-30T07:56:34.694Z",
+      "updatedAt": "2026-09-30T07:56:34.694Z"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "log_001",
+      "action": "SYSTEM_BOOTSTRAP",
+      "userEmail": "system",
+      "details": "Full-stack application database bootstrapped with pre-configured schemas.",
+      "timestamp": "2026-09-30T03:56:34.694Z",
+      "ip": "127.0.0.1"
+    },
+    {
+      "id": "log_002",
+      "action": "USER_REGISTERED",
+      "userEmail": "admin@example.com",
+      "details": "Default Administrator account provisioned.",
+      "timestamp": "2026-09-30T04:56:34.694Z",
+      "ip": "127.0.0.1"
+    },
+    {
+      "id": "log_003",
+      "action": "USER_LOGIN",
+      "userEmail": "admin@example.com",
+      "details": "Successful JWT authentication token granted.",
+      "timestamp": "2026-09-30T06:56:34.694Z",
+      "ip": "127.0.0.1"
+    }
+  ],
+  "metrics": {
+    "totalRequests": 2,
+    "startTime": 1790754994527
+  }
+}
